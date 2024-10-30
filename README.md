@@ -1,7 +1,8 @@
 # Em Português
 
 Olá! Tudo bem? Este é meu primeiro projeto de todos no git hub,
-Sendo meu segundo na área do python, mas bem vamos lá.
+Sendo meu segundo na área do python (que inclusive, estou começando!),
+mas bem vamos lá.
 
 ## Descrição
 Este projeto ele é um gerador de senhas simples, com algumas
@@ -16,6 +17,32 @@ que possa dar algum problema é o colorama, mas isos pode ser resolvido
 com o comando "pip install colorama", ou se você estiver usando a
 ferramenta poetry, use "poetry add colorama".
 
+## Como instalar o repositório?
+
+Primeiro clone o repósitorio para seu pc:
+
+git clone https://github.com/WizardMaster-py/Gerador-de-Senhas-Password-Generator-
+
+depois ative o .venv:
+
+python -m venv .venv
+source .venv/bin/activate  # No Windows, use .\.venv\Scripts\activate
+
+Consiga as dependências com:
+
+pip install -r requirements.txt
+OU
+poetry install
+
+Rode o programa:
+
+python nome_do_seu_script.py
+
+## Contribuição
+
+Fiquem a vontade para enviar um issue ou um pull request! Contribuições são muito bem
+vindas
+
 # In English
 
 ## Observation
@@ -24,7 +51,8 @@ appear bc i needed some help from google translator. Sorry for any english
 errors!
 
 Hello! How are you? This is my first project on git hub,
-Being my second in the python area, but well let's go.
+Being my second in the python area (i'm starting to learn python!),
+but well let's go.
 
 ## Description
 This project is a simple password generator, with some
